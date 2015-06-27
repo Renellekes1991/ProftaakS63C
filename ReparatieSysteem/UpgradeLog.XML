@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ReparatieSysteem">
+</Property><Property Name="Solution File" Value="C:\Users\Stertefeld\Dropbox\MARBL Proftaak\PTS-SEI - Parafiksit\Bronnen\Parafixit Csharp\Parafixit C#\PTS22\ReparatieSysteem\ReparatieSysteem.sln">
+</Property><Property Name="Date" Value="Thursday, June 20, 2013">
+</Property><Property Name="Time" Value="12:42 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ReparatieSysteem" Source="ReparatieSysteem\ReparatieSysteem.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ReparatieSysteem" Source="ReparatieSysteem\ReparatieSysteem.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ReparatieSysteemTest" Source="ReparatieSysteemTest\ReparatieSysteemTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ReparatieSysteemTest" Source="ReparatieSysteemTest\ReparatieSysteemTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ReparatieSysteem.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ReparatieSysteem.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ReparatieSysteem" Source="ReparatieSysteem\ReparatieSysteem.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="ReparatieSysteem.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ReparatieSysteem.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="ReparatieSysteemTest" Source="ReparatieSysteemTest\ReparatieSysteemTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

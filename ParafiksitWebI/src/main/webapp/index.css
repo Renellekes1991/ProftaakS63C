@@ -1,0 +1,24 @@
+/* 
+    Document   : index
+    Created on : 20-jun-2013, 12:31:16
+    Author     : Leslie Aerts
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#main_form
+{
+    text-align: center;
+    background-color: #EEE;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    display: block;
+    width:500px;
+    margin: 0 auto;
+}
+
