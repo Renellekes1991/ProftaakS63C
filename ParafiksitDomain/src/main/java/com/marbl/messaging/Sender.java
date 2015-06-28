@@ -14,10 +14,7 @@ import javax.jms.Queue;
 import javax.jms.TextMessage;
 import javax.naming.NamingException;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class Sender extends Channel implements ISender{
 
 private MessageProducer producer;    

@@ -16,10 +16,7 @@ import com.marbl.warehouse.WarehouseStatusRequest;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 class WarehouseStatusGateway
 {
     private WarehouseStatusSerializer serializer;

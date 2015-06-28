@@ -9,10 +9,7 @@ import com.marbl.client.domain.WorkPerformedInfo;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class ParafiksitOrderReply  implements Serializable{
         private String nameClient;
         private ShippingAddress shipping;

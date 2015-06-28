@@ -9,10 +9,7 @@ import com.marbl.messaging.requestreply.IReplyListener;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 abstract class ComputerBrokerStatusGateway {
     
     private ClientStatusSerializer serializer;

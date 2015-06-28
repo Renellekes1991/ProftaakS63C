@@ -6,10 +6,6 @@ package com.marbl.client;
 
 import java.io.Serializable;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
 public class Parts implements Serializable
 {
     public static final String HARD_DISK = "Harde schijf";

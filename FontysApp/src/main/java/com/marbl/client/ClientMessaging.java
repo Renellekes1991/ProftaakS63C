@@ -6,10 +6,7 @@ package com.marbl.client;
 
 import com.marbl.fontysapp.FactuurFrame;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class ClientMessaging {
     
     private String clientName;

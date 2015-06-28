@@ -13,9 +13,7 @@ import com.sun.org.apache.bcel.internal.generic.Select;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-/**
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class FontysAppFrame extends javax.swing.JFrame
 {
 

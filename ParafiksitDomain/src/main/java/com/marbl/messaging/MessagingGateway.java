@@ -16,10 +16,7 @@ import javax.naming.NamingException;
  * and open the template in the editor.
  */
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class MessagingGateway {
     
     private ISender sender;

@@ -7,10 +7,7 @@ package com.marbl.messaging;
 import javax.jms.Destination;
 import javax.jms.JMSException;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public interface IChannel {
     void openConnection() throws JMSException;
     

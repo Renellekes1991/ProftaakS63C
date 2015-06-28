@@ -12,10 +12,7 @@ import com.marbl.parafiksit.ParafiksitStatusRequest;
 import com.marbl.warehouse.WarehouseStatusReply;
 import com.marbl.warehouse.WarehouseStatusRequest;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 abstract class StatusRequestProcess
 {
 

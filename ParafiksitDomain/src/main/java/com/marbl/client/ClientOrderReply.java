@@ -11,10 +11,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class ClientOrderReply implements Serializable{
     
     private String string;

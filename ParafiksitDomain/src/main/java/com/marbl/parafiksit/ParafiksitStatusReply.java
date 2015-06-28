@@ -6,10 +6,7 @@ package com.marbl.parafiksit;
 
 import java.io.Serializable;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class ParafiksitStatusReply  implements Serializable{
     
 }

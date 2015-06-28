@@ -12,10 +12,7 @@ import com.marbl.warehouse.WarehouseOrderReply;
 import com.marbl.warehouse.WarehouseStatusReply;
 import java.util.ArrayList;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class ComputerBroker {
     
     private ClientOrderGateway clientOrderGateway;

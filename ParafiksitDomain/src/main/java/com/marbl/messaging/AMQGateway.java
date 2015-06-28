@@ -19,10 +19,7 @@ import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-/**
- *
- * @author Stertefeld
- */
+
 public class AMQGateway {
     
     private String user = ActiveMQConnection.DEFAULT_USER;

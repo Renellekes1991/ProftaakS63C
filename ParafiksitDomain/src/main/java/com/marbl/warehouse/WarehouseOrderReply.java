@@ -8,10 +8,7 @@ import com.marbl.warehouse.domain.Factuur;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class WarehouseOrderReply  implements Serializable
 {
     private Factuur factuur;

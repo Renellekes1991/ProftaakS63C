@@ -12,10 +12,7 @@ import javax.jms.MessageListener;
 import javax.jms.Queue;
 import javax.naming.NamingException;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class Receiver extends Channel implements IReceiver{
     
     private MessageConsumer consumer;    

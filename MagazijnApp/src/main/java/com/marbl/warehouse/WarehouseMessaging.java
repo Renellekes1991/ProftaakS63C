@@ -16,10 +16,7 @@ import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class WarehouseMessaging
 {
 

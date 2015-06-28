@@ -11,10 +11,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class WarehouseOrderRequest  implements Serializable{
     
     private Contact contact;

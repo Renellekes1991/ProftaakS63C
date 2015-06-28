@@ -13,10 +13,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.jms.JMSException;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 abstract class ParafiksitOrderGateway {
     private ParafiksitOrderSerializer serializer;
     private AMQAsynchronousRequestor<ParafiksitOrderRequest, ParafiksitOrderReply> gateway;

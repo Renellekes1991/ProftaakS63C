@@ -31,7 +31,7 @@ public class Database {
 
             String username = properties.getProperty("Username");
             String password = properties.getProperty("Password");
-            String url = "jdbc:oracle:thin:@(description=(address=(host="+properties.getProperty("Host")+")(protocol=tcp)(port="+properties.getProperty("Port")+"))(connect_data=(service_name="+properties.getProperty("Dbname")+")(server=DEDICATED)))";
+            String url = "jdbc:oracle:thin:@(description=(address=(host=192.168.183.180)(protocol=tcp)(port="+properties.getProperty("Port")+"))(connect_data=(service_name="+properties.getProperty("Dbname")+")(server=DEDICATED)))";
             Class.forName("oracle.jdbc.OracleDriver");
             connection = DriverManager.getConnection(url, username, password);
             connection.setAutoCommit(true);

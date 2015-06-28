@@ -13,10 +13,7 @@ import com.marbl.warehouse.WarehouseStatusReply;
 import com.marbl.warehouse.WarehouseStatusRequest;
 import com.thoughtworks.xstream.XStream;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 class WarehouseStatusSerializer implements IRequestReplySerializer<WarehouseStatusRequest, WarehouseStatusReply> 
 {
 

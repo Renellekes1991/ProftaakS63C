@@ -7,10 +7,7 @@ package com.marbl.warehouse;
 import com.marbl.warehouse.domain.Factuur;
 import java.io.Serializable;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class WarehouseStatusReply  implements Serializable
 {
     private Factuur factuur;

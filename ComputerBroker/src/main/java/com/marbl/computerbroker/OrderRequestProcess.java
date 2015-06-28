@@ -14,10 +14,7 @@ import com.marbl.warehouse.WarehouseOrderRequest;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 abstract class OrderRequestProcess
 {
 

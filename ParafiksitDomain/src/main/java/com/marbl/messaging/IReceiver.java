@@ -6,10 +6,7 @@ package com.marbl.messaging;
 
 import javax.jms.MessageListener;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public interface IReceiver extends IChannel {
     void setMessageListener(MessageListener listener);
 }

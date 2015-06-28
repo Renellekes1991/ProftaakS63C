@@ -11,9 +11,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Nick Wondergem & Danik Raikhlin
- */
 public class ParafiksitOrderRequest  implements Serializable
 {
     private ShippingAddress shippingAddress;

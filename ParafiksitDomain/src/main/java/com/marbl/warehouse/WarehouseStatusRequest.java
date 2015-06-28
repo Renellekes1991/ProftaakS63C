@@ -11,10 +11,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class WarehouseStatusRequest  implements Serializable {
 
     public WarehouseStatusRequest()

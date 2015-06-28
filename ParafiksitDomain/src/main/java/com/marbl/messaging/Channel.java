@@ -15,10 +15,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class Channel implements IChannel {
 
     protected Connection connection;

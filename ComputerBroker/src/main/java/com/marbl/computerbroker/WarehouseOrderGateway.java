@@ -14,10 +14,7 @@ import java.util.Hashtable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- *///Bankgateway = voorbeeld hiervoor!
+
 public class WarehouseOrderGateway {
     
     private WarehouseSerializer serializer;

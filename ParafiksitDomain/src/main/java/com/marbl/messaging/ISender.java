@@ -9,10 +9,7 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.TextMessage;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public interface ISender extends IChannel{
     TextMessage createMessage(String body) throws JMSException;
     

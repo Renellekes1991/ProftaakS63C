@@ -13,10 +13,7 @@ import com.marbl.parafiksit.ParafiksitStatusSerializer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 abstract class ParafiksitStatusGateway
 {
 

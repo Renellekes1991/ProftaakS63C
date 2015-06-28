@@ -8,10 +8,7 @@ import com.marbl.client.ClientOrderReply;
 import com.marbl.client.domain.PartInfo;
 import com.marbl.client.domain.WorkPerformedInfo;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class FactuurFrame extends javax.swing.JFrame
 {
 

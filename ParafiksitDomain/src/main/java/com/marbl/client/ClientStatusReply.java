@@ -6,10 +6,7 @@ package com.marbl.client;
 
 import java.io.Serializable;
 
-/**
- *
- * Nick Wondergem & Danik Raikhlin
- */
+
 public class ClientStatusReply implements Serializable {
     
 }
