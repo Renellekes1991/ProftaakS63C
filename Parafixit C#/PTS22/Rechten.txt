@@ -1,0 +1,5 @@
+functies:
+management:	kan overal bij
+winkel:		kan niet bij het tabblad administrator
+helpdesk:	kan niet bij het tabblad administrator en reparatieregistraties niet toevoegen, wel bekijken
+reparatie:	kan niet bij het tabblad administrator en ticketregistraties niet toevoegen, wel bekijken

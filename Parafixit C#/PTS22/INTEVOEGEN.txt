@@ -1,0 +1,37 @@
+Deze code heb ik gemaakt maarkon niet update omdat eric ook al bezig was met dezelfde klasses.
+Dus deze code later even invoegen :
+
+
+IDatabase.cs:
+
+Factuur SaveFactuur(int factuurNummer, int factuurKosten, DateTime factuurDate, string omschrijving, int klantNr,        int ticketnr, int aantalUren);
+
+
+OracleDatabase.cs:
+
+public Factuur SaveFactuur(int factuurNummer, int factuurKosten, DateTime factuurDate, string omschrijving, int klantNr, int ticketnr, int aantalUren)
+{
+connection.Open();
+string query = "INSERT INTO factuur (factuurnummer, kosten, factuur_date, omschrijving, klantnr, ticket, uren) VALUES "+ "("+factuurNummer.ToString()+", '"+factuurKosten.ToString()+"', to_timestamp('"+ factuurDate.Year.ToString() + "-" + factuurDate.Month.ToString() + "-" + factuurDate.Day.ToString() + " " + factuurDate.Hour + ":" + factuurDate.Minute + ":" + factuurDate.Second + "','YYYY-MM-DD HH24:MI:SS'), " + omschrijving + ", " + klantNr.ToString() + ", " + ticketnr.ToString() + ", " + aantalUren.ToString() + ")";
+OracleCommand command = new OracleCommand(query, connection);
+command.ExecuteNonQuery();
+
+string selectQuery = "SELECT Max(factuurnummer) AS FacNum FROM factuur";
+command = new OracleCommand (selectQuery, connection);
+OracleDataReader reader = command.ExecuteReader();
+reader.Read();
+
+Factuur f = new Factuur(
+factuurNummer, 
+factuurKosten,
+factuurDate, 
+klantNr,
+omschrijving,
+ticketnr,
+aantalUren
+);
+connection.Close();
+return f;
+}
+
+    

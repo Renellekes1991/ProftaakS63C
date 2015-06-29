@@ -1,0 +1,13 @@
+De volgende veranderingen zijn nodig na het bespreken van de GUI:
+
+ophaalafspraak vakje weg > datetime picker
+ophaalafspraak in erd veranderen naar date-time
+locatie van het product toevoegen > combobox
+
+locatie/afdeling hoeft maar 1 keer ingevuld te worden, en daarna wordt het onthouden tot uitloggen
+
+ticketstatus op andere plekken 
+
+medewerker toevoegen moet kunnen
+
+een aantal punten zijn op de screenshots aangetekend

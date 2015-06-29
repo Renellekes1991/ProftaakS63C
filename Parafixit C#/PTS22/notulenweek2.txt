@@ -1,0 +1,22 @@
+- Je moet weten welke medewerker wat heeft ingevoerd -> login systeem is handig.
+- Verschillende rechten
+- Factuur mag je zelf verzinnen
+- Om de andere dag rijdt een busje rond om dingen af te leveren/op te halen
+- Als iets niet gerepareerd kan worden moet de klant hier een melding van krijgen
+- Managementinformatie is: overzichten per maand en per week over
+			   wat er is binnen gekomen, uit is gegaan, kosten etc
+- webinterface is voor toekomst
+- klant wil verwachte reparatie tijd / garantie weten.
+
+unittests voor methodes in interfaces
+
+Deze week planning /takenlijst maken
+
+onderzoeksdocument: Eric + Steven
+planning: Steven
+svn op orde brengen: Niels R
+Servers opzetten (uitzoeken): Steven + Niels V
+GUI: Niels R + Eric
+Klassendiagram (+ interfaces) + ERD: Tom + Jeroen
+
+Unittests wordt later beslist

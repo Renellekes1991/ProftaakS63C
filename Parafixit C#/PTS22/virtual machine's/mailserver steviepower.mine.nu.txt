@@ -1,0 +1,27 @@
+apt-get install postfix
+internetsite:
+maildomein steviepower.mine.nu
+
+in /etc/postfix/main.cf
+myhostname van : server.steviepower.mine.nu naar server
+
+myorigin van /etc/mailname naar steviepower.mine.nu
+
+virtual_alias_maps = hash:/etc/postfix/virtual= toegevoegd
+
+vim virtual
+mailadres unix user
+
+postmap virtual== maak database ervan
+postfix reload== go do it
+
+dan smtp authenticatie:
+/etc/postfix/
+main.cf:
+    smtpd_sasl_application_name = smtpd (Postfix < 2.3)
+
+toevoegen en postfix reload
+
+edit:
+/usr/local/lib/sasl/smtpd.conf:
+    pwcheck_method: pwcheck

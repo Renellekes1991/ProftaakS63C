@@ -1,0 +1,9 @@
+op zelfde vm als database:
+keuze voor mailserver: postfix
+alternatief voor veelgebruikte server sendmail. Dit programma wordt goed ondersteund door onze linux distributie.
+
+configuratie van postfix:
+tijdens installatie: gekozen voor internetsite, hierbij wordt mail direct via smtp verstuurd, dit is wat wij ook het liefst zien.
+
+verder geen opties, de e-mailnaam hebben we oracle-server gelaten.
+

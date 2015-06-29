@@ -1,0 +1,17 @@
+Use cases:
+
+- Inloggen +
+- Uitloggen + 
+- Een nieuwe klant aanmaken+
+- Een klant verwijderen+
+- Een klant zoeken +
+- Een nieuwe ticket aanmaken +
+- Een ticket verwijderen + 
+- Een ticket zoeken +
+- Een ReparatieRegistratie toevoegen aan een ticket +
+- Een Vermelding toevoegen aan een ticket +
+- Een overzicht van alle facturen bekijken+
+- Een nieuwe medewerker aanmaken +
+
+ 
++ ???

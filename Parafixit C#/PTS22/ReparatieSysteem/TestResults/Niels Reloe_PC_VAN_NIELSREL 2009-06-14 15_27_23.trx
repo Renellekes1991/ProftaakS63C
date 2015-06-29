@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dbff6d95-b147-4c34-b87a-b5dc58d37963" name="Niels Reloe@PC_VAN_NIELSREL 2009-06-14 15:27:23" runUser="PC_van_NielsRel\Niels Reloe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="111b5848-a74c-401f-9ba6-beca4dd0085f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\TestResults\Niels Reloe_PC_VAN_NIELSREL 2009-06-14 15_27_23">
+      <DeploymentItem filename="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteem\bin\Debug\ReparatieSysteem.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="3" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-06-14T15:27:23.0186000+02:00" queuing="2009-06-14T15:27:27.3766000+02:00" start="2009-06-14T15:27:27.9806000+02:00" finish="2009-06-14T15:27:29.8626000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="EmailTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="5881433c-5b5c-6245-3983-840fce5d9a9c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ad082a86-04d8-4856-ad7a-90fb5c1ef865" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="EmailTest" />
+    </UnitTest>
+    <UnitTest name="LandTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="90c80d99-fb16-44d2-271c-0c5d14725a36">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c19b3001-70d7-45cb-af6f-eaf4215d14c0" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="LandTest" />
+    </UnitTest>
+    <UnitTest name="ToStringTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="9249eb01-aa83-22d5-5449-41fae2374daa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="703d91c2-1766-475a-a10c-12d36b0406bf" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="ToStringTest" />
+    </UnitTest>
+    <UnitTest name="TelefoonTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="5b9ecc0d-5801-74d8-1a5a-06011bab3682">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="12c707f4-912d-4ec7-8659-1e8ceaad131c" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="TelefoonTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="a0f09eea-69df-a977-738f-7c9e4e5f1f05">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="34d33c54-96e7-4e5c-92b3-272fb87e1467" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.ReparatieSysteemTest, ReparatieSysteemTest" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="KlantConstructorTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="2ec259d6-f749-b956-f7ae-e8b8b71e8ca3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="124fd812-9d0b-4424-9017-c094a9ccba2d" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="KlantConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a0f09eea-69df-a977-738f-7c9e4e5f1f05" executionId="34d33c54-96e7-4e5c-92b3-272fb87e1467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b9ecc0d-5801-74d8-1a5a-06011bab3682" executionId="12c707f4-912d-4ec7-8659-1e8ceaad131c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c80d99-fb16-44d2-271c-0c5d14725a36" executionId="c19b3001-70d7-45cb-af6f-eaf4215d14c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5881433c-5b5c-6245-3983-840fce5d9a9c" executionId="ad082a86-04d8-4856-ad7a-90fb5c1ef865" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9249eb01-aa83-22d5-5449-41fae2374daa" executionId="703d91c2-1766-475a-a10c-12d36b0406bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ec259d6-f749-b956-f7ae-e8b8b71e8ca3" executionId="124fd812-9d0b-4424-9017-c094a9ccba2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34d33c54-96e7-4e5c-92b3-272fb87e1467" testId="a0f09eea-69df-a977-738f-7c9e4e5f1f05" testName="TestMethod1" computerName="PC_VAN_NIELSREL" duration="00:00:00.0091942" startTime="2009-06-14T15:27:28.3186000+02:00" endTime="2009-06-14T15:27:29.2006000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12c707f4-912d-4ec7-8659-1e8ceaad131c" testId="5b9ecc0d-5801-74d8-1a5a-06011bab3682" testName="TelefoonTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0481686" startTime="2009-06-14T15:27:29.2306000+02:00" endTime="2009-06-14T15:27:29.2936000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c19b3001-70d7-45cb-af6f-eaf4215d14c0" testId="90c80d99-fb16-44d2-271c-0c5d14725a36" testName="LandTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.1344743" startTime="2009-06-14T15:27:29.3056000+02:00" endTime="2009-06-14T15:27:29.4446000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   bij ReparatieSysteemTest.KlantTest.LandTest() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\KlantTest.cs:regel 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad082a86-04d8-4856-ad7a-90fb5c1ef865" testId="5881433c-5b5c-6245-3983-840fce5d9a9c" testName="EmailTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0167337" startTime="2009-06-14T15:27:29.4766000+02:00" endTime="2009-06-14T15:27:29.4996000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   bij ReparatieSysteemTest.KlantTest.EmailTest() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\KlantTest.cs:regel 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="703d91c2-1766-475a-a10c-12d36b0406bf" testId="9249eb01-aa83-22d5-5449-41fae2374daa" testName="ToStringTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0104700" startTime="2009-06-14T15:27:29.5216000+02:00" endTime="2009-06-14T15:27:29.5376000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;0, , , , &gt;. </Message>
+          <StackTrace>   bij ReparatieSysteemTest.KlantTest.ToStringTest() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\KlantTest.cs:regel 163
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="124fd812-9d0b-4424-9017-c094a9ccba2d" testId="2ec259d6-f749-b956-f7ae-e8b8b71e8ca3" testName="KlantConstructorTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0090624" startTime="2009-06-14T15:27:29.5546000+02:00" endTime="2009-06-14T15:27:29.5686000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   bij ReparatieSysteemTest.KlantTest.KlantConstructorTest() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\KlantTest.cs:regel 185
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

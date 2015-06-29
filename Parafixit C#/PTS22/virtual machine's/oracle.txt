@@ -1,0 +1,5 @@
+listen poort: 1521
+webaccess: 8080 /apex
+
+user met volledige rechten: pts21
+pass: appel

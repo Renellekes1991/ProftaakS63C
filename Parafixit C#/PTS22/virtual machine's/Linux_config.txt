@@ -1,0 +1,110 @@
+os: Linux Debian 5.0 GNU, deze is geinstalleerd met alle standaardsysteemsoftware en een gui (gnome)
+2 accounts ingesteld:
+user: root
+pass: appel
+
+user: gebruiker
+pass: appel
+
+om ervoor te zorgen dat de te downloaden bestanden niet op de cd worden gezocht maar alleen via internet
+via de opdracht vim /etc/apt/sources.list deze file aangepast. Zodat de bron cd wordt uitgeschakeld.
+met # deze bron weg-gecomment.
+
+gezorgd voor nieuwste versies via:
+# apt-get update
+# apt-get dist-upgrade
+# apt-get upgrade
+
+via de shell als root een  ssh server geinstalleerd met het volgende command:
+# apt-get install ssh
+
+voor het eventueel compilen van bepaalde software de gcc applicatie geinstalleerd
+# apt-get install gcc
+
+om het gebruik van de systeembronnen te bekijken htop geinstalleerd
+# apt-get install htop
+
+/*
+in de instelligen van de virtualbox wordt op de host NAT uitgevoerd waardoor de internetverbinding wordt doorgegeven naar de virtualbox.
+om de oracle installatiebestanden in de virtualbox te krijgen op de hostpc een simpleserver www opgezet en via het command 
+# wget <url> 
+de data wordt hiermee gekopieerd naar de virtualbox
+
+Nu moest de .zip file uitgepakt worden: 
+# apt-get install unzip
+dit installeert het unzip programma waarmee de file uitgepakt gaat worden
+
+unzip uitgevoerd met het volgende command:
+# unzip linux_11gR1_database_1013
+
+voor oracle blijkt een xserver nodig te zijn:
+# apt-get install xserver-xorg-core
+
+daarvoor dient natuurlijk ook een window manager aanwezig te zijn
+# apt-get install fluxbox
+
+voor het starten van fluxbox xdm geinstalleerd:
+# apt-get install xdm
+
+
+-------------------------------------------------------------------------
+/etc/X11/x = xserver
+
+via 
+# cd /database naar de database map
+
+daarna via 
+# su gebruiker
+ingelogd als gebruiker en daarna via 
+*/
+
+oracle repository toegevoegd aan de etc/apt/sources.list
+deb http://oss.oracle.com/debian/ unstable main non-free
+
+via 
+# apt-get install oracle-xe 
+oracle geinstalleerd
+
+via # apt-get install oracle-xe-client de client geinstalleerd
+
+via # apt-get install oracle-xe-universal 
+
+via /etc/init.d/oracle-xe configure
+de server ingesteld
+oracle application express: poort: 8080
+database listener: poort: 1521
+
+nu moet hamachi nog worden geinstalleerd om ervoor te zorgen dat onder alle omstandigheden er een netwerkverbinding is(ook via de NAT van virtualbox)
+
+build essentials:
+#aptitude install build-essential
+
+downloaden van hamachi:
+~wget -c http://www.rafekz.one.pl/hamachi_0.9.9.9.20.deb
+#dpkg -i hamachi_0.9.9.9.20.deb
+#rm hamachi_0.9.9.9.20.deb
+
+om te verbinden met een netwerk:
+# hamachi -c /etc/hamachi join pts21 appel
+
+online gaan op dit netwerk:
+# hamachi -c /etc/hamachi go-online pts21
+
+via de webconfig van oracle:
+http://127.0.0.1:8080/apex
+
+om de GUI te stoppen, deze hebben we immers niet meer nodig:
+
+# /etc/init.d/gdm stop
+
+om deze weer te starten:
+
+# /etc/init.d/gdm start
+
+om het systeem via de command line af te sluiten gebruik je het command:
+# shutdown -h now
+
+hier zijn de vm's verdeeld en gelden de instellingen niet emer vanaf iedere vm
+
+ipv gdm stop is het ook mogelijk om na het booten gdm niet te starten met de opdracht:
+# update-rc.d -f gdm remove

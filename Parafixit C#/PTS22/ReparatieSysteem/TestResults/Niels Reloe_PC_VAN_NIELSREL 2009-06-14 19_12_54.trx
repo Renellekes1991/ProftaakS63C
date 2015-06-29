@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="43dc8356-2ced-4338-8173-5617a279e7b2" name="Niels Reloe@PC_VAN_NIELSREL 2009-06-14 19:12:54" runUser="PC_van_NielsRel\Niels Reloe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="111b5848-a74c-401f-9ba6-beca4dd0085f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\TestResults\Niels Reloe_PC_VAN_NIELSREL 2009-06-14 19_12_54">
+      <DeploymentItem filename="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteem\bin\Debug\ReparatieSysteem.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="4" error="0" failed="3" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-06-14T19:12:54.9076000+02:00" queuing="2009-06-14T19:12:56.6496000+02:00" start="2009-06-14T19:12:57.0366000+02:00" finish="2009-06-14T19:12:58.5566000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="EmailTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="5881433c-5b5c-6245-3983-840fce5d9a9c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d0c312b8-0db2-4eab-83b4-6490df4e5434" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="EmailTest" />
+    </UnitTest>
+    <UnitTest name="WijzigEnGetKlant2" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="075b5c6c-876e-f86c-16ee-c18b2a8c751c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9af8de0e-c1de-423a-9cb3-b1cc2dbb5f16" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.ReparatieSysteemTest, ReparatieSysteemTest" name="WijzigEnGetKlant2" />
+    </UnitTest>
+    <UnitTest name="TelefoonTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="5b9ecc0d-5801-74d8-1a5a-06011bab3682">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bb1ae807-5f23-40cf-982c-e03ba636b0e6" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="TelefoonTest" />
+    </UnitTest>
+    <UnitTest name="LandTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="90c80d99-fb16-44d2-271c-0c5d14725a36">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ef2360c7-d321-45f7-a32b-d663ce53a956" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="LandTest" />
+    </UnitTest>
+    <UnitTest name="KlantConstructorTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="2ec259d6-f749-b956-f7ae-e8b8b71e8ca3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b4de0961-741d-4895-9a6e-6447b00cd0ee" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="KlantConstructorTest" />
+    </UnitTest>
+    <UnitTest name="WijzigEnGetKlant1" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="c8dbe165-9dfc-03fa-38da-dcb1682f2612">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="56d97669-4025-491b-a4e3-f62ee6d25325" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.ReparatieSysteemTest, ReparatieSysteemTest" name="WijzigEnGetKlant1" />
+    </UnitTest>
+    <UnitTest name="ToStringMetTussenvoegselTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="95b3d186-9197-ac08-2a88-047d543b42d7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b7f99404-f1c0-4f7e-ba02-5a717341e2b9" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="ToStringMetTussenvoegselTest" />
+    </UnitTest>
+    <UnitTest name="ToStringGeenTussenvoegselTest" storage="g:\niels reloe\downloads\school\p4\pts22\subversion\pts41grp2080903\pts22\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="b722dd6a-1c93-eefa-75c7-b59f6ec6f8bd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fb3bbcfd-e847-4935-b7bc-b9ad42dbe9dc" />
+      <TestMethod codeBase="G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.KlantTest, ReparatieSysteemTest" name="ToStringGeenTussenvoegselTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5b9ecc0d-5801-74d8-1a5a-06011bab3682" executionId="bb1ae807-5f23-40cf-982c-e03ba636b0e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c80d99-fb16-44d2-271c-0c5d14725a36" executionId="ef2360c7-d321-45f7-a32b-d663ce53a956" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5881433c-5b5c-6245-3983-840fce5d9a9c" executionId="d0c312b8-0db2-4eab-83b4-6490df4e5434" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ec259d6-f749-b956-f7ae-e8b8b71e8ca3" executionId="b4de0961-741d-4895-9a6e-6447b00cd0ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b722dd6a-1c93-eefa-75c7-b59f6ec6f8bd" executionId="fb3bbcfd-e847-4935-b7bc-b9ad42dbe9dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95b3d186-9197-ac08-2a88-047d543b42d7" executionId="b7f99404-f1c0-4f7e-ba02-5a717341e2b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8dbe165-9dfc-03fa-38da-dcb1682f2612" executionId="56d97669-4025-491b-a4e3-f62ee6d25325" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="075b5c6c-876e-f86c-16ee-c18b2a8c751c" executionId="9af8de0e-c1de-423a-9cb3-b1cc2dbb5f16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bb1ae807-5f23-40cf-982c-e03ba636b0e6" testId="5b9ecc0d-5801-74d8-1a5a-06011bab3682" testName="TelefoonTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0252140" startTime="2009-06-14T19:12:57.1816000+02:00" endTime="2009-06-14T19:12:57.9406000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef2360c7-d321-45f7-a32b-d663ce53a956" testId="90c80d99-fb16-44d2-271c-0c5d14725a36" testName="LandTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0005904" startTime="2009-06-14T19:12:57.9446000+02:00" endTime="2009-06-14T19:12:57.9546000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0c312b8-0db2-4eab-83b4-6490df4e5434" testId="5881433c-5b5c-6245-3983-840fce5d9a9c" testName="EmailTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0005879" startTime="2009-06-14T19:12:57.9646000+02:00" endTime="2009-06-14T19:12:57.9696000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4de0961-741d-4895-9a6e-6447b00cd0ee" testId="2ec259d6-f749-b956-f7ae-e8b8b71e8ca3" testName="KlantConstructorTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.1144837" startTime="2009-06-14T19:12:57.9736000+02:00" endTime="2009-06-14T19:12:58.0926000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   bij ReparatieSysteemTest.KlantTest.KlantConstructorTest() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\KlantTest.cs:regel 206
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb3bbcfd-e847-4935-b7bc-b9ad42dbe9dc" testId="b722dd6a-1c93-eefa-75c7-b59f6ec6f8bd" testName="ToStringGeenTussenvoegselTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0111088" startTime="2009-06-14T19:12:58.1076000+02:00" endTime="2009-06-14T19:12:58.1226000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0, Henk, Erp, Eindhoven&gt;. Actual:&lt;0, Henk, van, , Eindhoven&gt;. </Message>
+          <StackTrace>   bij ReparatieSysteemTest.KlantTest.ToStringGeenTussenvoegselTest() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\KlantTest.cs:regel 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7f99404-f1c0-4f7e-ba02-5a717341e2b9" testId="95b3d186-9197-ac08-2a88-047d543b42d7" testName="ToStringMetTussenvoegselTest" computerName="PC_VAN_NIELSREL" duration="00:00:00.0003940" startTime="2009-06-14T19:12:58.1356000+02:00" endTime="2009-06-14T19:12:58.1396000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56d97669-4025-491b-a4e3-f62ee6d25325" testId="c8dbe165-9dfc-03fa-38da-dcb1682f2612" testName="WijzigEnGetKlant1" computerName="PC_VAN_NIELSREL" duration="00:00:00.2680273" startTime="2009-06-14T19:12:58.1506000+02:00" endTime="2009-06-14T19:12:58.4226000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ReparatieSysteemTest.ReparatieSysteemTest.WijzigEnGetKlant1 threw exception:  System.Exception: Voor System.Data.OracleClient is Oracle-clientsoftware versie 8.1.7 of hoger vereist..</Message>
+          <StackTrace>    bij System.Data.OracleClient.OCI.DetermineClientVersion()
+   bij System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   bij System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   bij System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   bij System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   bij System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   bij System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   bij System.Data.OracleClient.OracleConnection.Open()
+   bij ReparatieSysteem.OracleDatabase.SaveKlant(String voornaam, String tussenvoegsel, String achternaam, String woonplaats, String postcode, String straatnaam, Int32 huisnummer, String email, String telefoon, String land) in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteem\Database\OracleDatabase.cs:regel 642
+   bij ReparatieSysteemTest.ReparatieSysteemTest.WijzigEnGetKlant1() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\ReparatieSysteemTest.cs:regel 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9af8de0e-c1de-423a-9cb3-b1cc2dbb5f16" testId="075b5c6c-876e-f86c-16ee-c18b2a8c751c" testName="WijzigEnGetKlant2" computerName="PC_VAN_NIELSREL" duration="00:00:00.0137137" startTime="2009-06-14T19:12:58.4336000+02:00" endTime="2009-06-14T19:12:58.4556000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ReparatieSysteemTest.ReparatieSysteemTest.WijzigEnGetKlant2 threw exception:  System.Exception: Voor System.Data.OracleClient is Oracle-clientsoftware versie 8.1.7 of hoger vereist..</Message>
+          <StackTrace>    bij System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   bij System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   bij System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   bij System.Data.OracleClient.OracleConnection.Open()
+   bij ReparatieSysteem.OracleDatabase.SaveKlant(String voornaam, String tussenvoegsel, String achternaam, String woonplaats, String postcode, String straatnaam, Int32 huisnummer, String email, String telefoon, String land) in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteem\Database\OracleDatabase.cs:regel 642
+   bij ReparatieSysteemTest.ReparatieSysteemTest.WijzigEnGetKlant2() in G:\Niels Reloe\Downloads\School\P4\PTS22\Subversion\pts41grp2080903\PTS22\ReparatieSysteem\ReparatieSysteemTest\ReparatieSysteemTest.cs:regel 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f3a2c6b5-8aa6-4839-99a1-bda340554ac8" name="erik@DEV9 2011-04-21 03:02:57" runUser="DEV9\erik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c2802e6b-ba0d-4e3f-bd68-1d75f2cf3b33">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="E:\Temp\PRDVM\Parafixit C#\Parafixit voorbeeld\PTS22\HoofdProject\ReparatieSysteem\TestResults\erik_DEV9 2011-04-21 03_02_57">
+      <DeploymentItem filename="E:\Temp\PRDVM\Parafixit C#\Parafixit voorbeeld\PTS22\HoofdProject\ReparatieSysteem\ReparatieSysteem\bin\Debug\ReparatieSysteem.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-21T03:02:57.0787500-05:00" queuing="2011-04-21T03:02:58.7350000-05:00" start="2011-04-21T03:02:59.0006250-05:00" finish="2011-04-21T03:02:59.6725000-05:00" />
+  <TestDefinitions>
+    <UnitTest name="GeenTussenvoegsel" storage="e:\temp\prdvm\parafixit c#\parafixit voorbeeld\pts22\hoofdproject\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="fc2f40aa-5f71-e784-5e64-9f2a74ef0b23">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d7f721f5-d2ec-4c4d-a26d-3a728ebe2a43" />
+      <TestMethod codeBase="E:\Temp\PRDVM\Parafixit C#\Parafixit voorbeeld\PTS22\HoofdProject\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.ReparatieSysteemTest, ReparatieSysteemTest" name="GeenTussenvoegsel" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\temp\prdvm\parafixit c#\parafixit voorbeeld\pts22\hoofdproject\reparatiesysteem\reparatiesysteemtest\bin\debug\reparatiesysteemtest.dll" id="a0f09eea-69df-a977-738f-7c9e4e5f1f05">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="355bddc0-4034-4698-b509-cfa563157795" />
+      <TestMethod codeBase="E:\Temp\PRDVM\Parafixit C#\Parafixit voorbeeld\PTS22\HoofdProject\ReparatieSysteem\ReparatieSysteemTest\bin\Debug\ReparatieSysteemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ReparatieSysteemTest.ReparatieSysteemTest, ReparatieSysteemTest" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a0f09eea-69df-a977-738f-7c9e4e5f1f05" executionId="355bddc0-4034-4698-b509-cfa563157795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc2f40aa-5f71-e784-5e64-9f2a74ef0b23" executionId="d7f721f5-d2ec-4c4d-a26d-3a728ebe2a43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="355bddc0-4034-4698-b509-cfa563157795" testId="a0f09eea-69df-a977-738f-7c9e4e5f1f05" testName="TestMethod1" computerName="DEV9" duration="00:00:00.0464762" startTime="2011-04-21T03:02:59.1412500-05:00" endTime="2011-04-21T03:02:59.4693750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7f721f5-d2ec-4c4d-a26d-3a728ebe2a43" testId="fc2f40aa-5f71-e784-5e64-9f2a74ef0b23" testName="GeenTussenvoegsel" computerName="DEV9" duration="00:00:00.0223279" startTime="2011-04-21T03:02:59.4693750-05:00" endTime="2011-04-21T03:02:59.5006250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1, Willem, Lodewijks, Eindhoven&gt;. Actual:&lt;1, Willem,  , Lodewijks, Eindhoven&gt;. </Message>
+          <StackTrace>   at ReparatieSysteemTest.ReparatieSysteemTest.GeenTussenvoegsel() in E:\Temp\PRDVM\Parafixit C#\Parafixit voorbeeld\PTS22\HoofdProject\ReparatieSysteem\ReparatieSysteemTest\ReparatieSysteemTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
